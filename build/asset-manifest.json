@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Consult-me/static/css/main.532ba462.css",
+    "main.js": "/Consult-me/static/js/main.278eba70.js",
+    "static/media/background1.jpg": "/Consult-me/static/media/background1.20b3a15b44fe493a7869.jpg",
+    "index.html": "/Consult-me/index.html",
+    "main.532ba462.css.map": "/Consult-me/static/css/main.532ba462.css.map",
+    "main.278eba70.js.map": "/Consult-me/static/js/main.278eba70.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.532ba462.css",
+    "static/js/main.278eba70.js"
+  ]
+}

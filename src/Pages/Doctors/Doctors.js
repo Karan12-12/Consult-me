@@ -60,14 +60,9 @@ const Doctors = ({ doctors }) => {
                     </span>
                     {doctor.rating}
                   </span>
-                  <button
-                    className="booKButton"
-                    onClick={() => {
-                      window.location.href = "/appointment";
-                    }}
-                  >
-                    Book Appointment
-                  </button>
+                  <a href="/appointment">
+                    <button className="booKButton">Book Appointment</button>
+                  </a>
                 </div>
               </Card.Body>
             </Card>
