@@ -2,7 +2,7 @@ import Home from "./components/Home/Home";
 import "./App.css";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Appointment from "./Pages/Appointment/Appointment.js";
+import Appointment from "./Pages/AppointmentFolder/Appointment.js";
 
 function App() {
   return (
