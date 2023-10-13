@@ -1,0 +1,171 @@
+.contact {
+  background-image: url("https://www.geekvape.com/images/contact/banner-contact.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 95vw;
+
+  box-shadow: 0px 0px 20px -5px rgb(129, 124, 124);
+  margin: auto;
+  border-radius: 7px;
+  padding: 15px;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+.footer-container {
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  color: rgb(169, 38, 38);
+  border-bottom: 2px solid #293241;
+  border-radius: 2px;
+}
+/* Title */
+.ft-title {
+  color: #4b6a87;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 0.8px;
+}
+.ft-info {
+  border: 1px dotted rgb(178, 104, 104);
+}
+.ft-list {
+  border: 1px dotted rgb(178, 104, 104);
+}
+.ft-sign {
+  color: #1e413c;
+  font-family: Cambria, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+.ft-description {
+  width: 420px;
+  margin: 10px 0 40px;
+  color: #1e413c;
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.8px;
+  line-height: 1.7rem;
+  font-weight: 500;
+}
+.ft-input-title {
+  color: rgb(37, 35, 35);
+  font-family: "Rubik", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 0.8px;
+}
+.ft-input {
+  width: 300px;
+  margin: 20px 8px 0 0;
+  padding: 16px 22px;
+  color: rgb(50, 47, 47);
+  background-color: #293241;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  outline: transparent;
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+}
+.ft-btn {
+  padding: 14px 18px;
+  color: rgb(41, 39, 39);
+  border: 2px solid transparent;
+  border-radius: 50px;
+  outline: transparent;
+  background-color: #1a8efd;
+  font-size: 18px;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 0.8px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.ft-btn:hover {
+  color: #1a8efd;
+  background-color: white;
+  border: 2px solid #1a8efd;
+}
+/* Lists */
+.ft-list-title {
+  margin: 16px 0;
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 0.8px;
+}
+.ft-list-items {
+  list-style-type: none;
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 10px;
+}
+.ft-list-items li a {
+  text-decoration: none;
+  color: #3e3f42;
+
+  border-bottom: 2px dotted transparent;
+  transition: border 0.2s ease;
+}
+.ft-list-items li {
+  font-family: "Rubik", sans-serif;
+
+  margin: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.8px;
+}
+.ft-list-items li a:hover {
+  border-bottom: 2px dotted #a5a7ac;
+}
+/* CopyRight */
+.ft-copyright {
+  padding: 24px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #313337;
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.8px;
+}
+.ft-social-links {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.ft-social-links li a {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #cbcdd3;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.ft-social-links li a svg {
+  width: 24px;
+  height: 24px;
+  padding: 1px;
+}
+.ft-social-links li a svg path {
+  fill: #cbcdd3;
+}
+.ft-social-links li a:hover,
+.ft-social-links li a:hover svg path {
+  fill: #1a8efd;
+  border: 2px solid #1a8efd;
+}

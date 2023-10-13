@@ -1,0 +1,48 @@
+.navbar {
+  /* position: fixed;
+  top: 5px;
+  left: 0;
+  width: 100%;
+
+  padding: 10px 0;
+  z-index: 1000; */
+}
+.custom-navbar {
+  width: 100vw;
+  height: 60px;
+}
+#basic-navbar-nav {
+  margin-left: 130px;
+}
+.nav-item {
+  margin-left: 30px;
+}
+
+.nav-item {
+  position: relative;
+  text-decoration: none;
+}
+
+.nav-item::before {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  background-color: #007bff;
+  transition: width 0.3s ease-in-out;
+}
+
+.nav-item:hover::before {
+  width: 100%;
+}
+.login-text {
+  font-size: larger;
+  transition: ease-in-out 0.2s all;
+  text-decoration: none;
+}
+.login-text:hover {
+  transform: scale(1.2);
+}

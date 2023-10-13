@@ -1,0 +1,27 @@
+.section {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 15px;
+  background-color: #ede8ef;
+  box-shadow: 0px 0px 20px -5px rgb(182, 178, 178);
+  backface-visibility: hidden;
+  transition: ease-in-out 0.5s all;
+  cursor: pointer;
+}
+
+/* Heading styling */
+.section h2 {
+  font-size: 32px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 25px;
+}
+.disease-card {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
+}
+.text-card {
+  transition: ease-in-out 0.5s all;
+  cursor: pointer;
+}

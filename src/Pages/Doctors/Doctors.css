@@ -1,0 +1,47 @@
+.card {
+  overflow: hidden;
+}
+
+.heading {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  font-size: 40px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+.card-container {
+  margin-top: 20px;
+}
+.image-card {
+  transition: ease-in-out 0.5s all;
+  width: 5px;
+  height: 250px;
+}
+.image-card:hover {
+  transform: scale(1.2);
+}
+.booKButton {
+  background-color: transparent;
+  color: rgb(50, 8, 185);
+  height: 40px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  border: 1px solid blue;
+  border-radius: 30px;
+}
+.booKButton:hover {
+  color: rgb(20, 20, 120);
+  box-shadow: 2px 2px 15px 0px rgb(149, 173, 218);
+}
+
+.viewButton {
+  width: 140px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 1px solid blue;
+  color: blue;
+  margin-top: 20px;
+}
