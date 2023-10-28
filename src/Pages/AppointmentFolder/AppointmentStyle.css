@@ -145,3 +145,22 @@ button[type="submit"]:hover {
   background-color: #ffffff;
   color: #6462dc;
 }
+@media (max-width: 767px) {
+  .form {
+    flex-direction: column;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  input[type="time"],
+  input[type="number"],
+  select {
+    width: 275px;
+  }
+  select:focus {
+    border: 0px solid transparent;
+    border-bottom: 1px solid white;
+    color: black;
+    width: 200px;
+  }
+}
