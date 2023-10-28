@@ -46,7 +46,7 @@
   font-weight: bold;
 }
 .ft-description {
-  width: 420px;
+  width: 100%;
   margin: 10px 0 40px;
   color: #1e413c;
   font-family: "Rubik", sans-serif;
@@ -168,4 +168,18 @@
 .ft-social-links li a:hover svg path {
   fill: #1a8efd;
   border: 2px solid #1a8efd;
+}
+@media (max-width: 767px) {
+  .ft-info {
+    width: 95vh;
+  }
+  .ft-info img {
+    height: 50px;
+  }
+  .ft-copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }

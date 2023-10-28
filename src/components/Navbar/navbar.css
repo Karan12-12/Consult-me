@@ -1,11 +1,5 @@
 .navbar {
-  /* position: fixed;
-  top: 5px;
-  left: 0;
-  width: 100%;
-
-  padding: 10px 0;
-  z-index: 1000; */
+  z-index: 1000;
 }
 .custom-navbar {
   width: 100vw;
@@ -43,6 +37,16 @@
   transition: ease-in-out 0.2s all;
   text-decoration: none;
 }
-.login-text:hover {
-  transform: scale(1.2);
+
+@media (max-width: 767px) {
+  #basic-navbar-nav {
+    border: 2px solid red;
+    background-color: rgba(162, 190, 181, 0.747);
+    border-radius: 5px;
+    font-size: 20px;
+  }
+  .custom-navbar {
+    width: 100vw;
+    height: 100px;
+  }
 }

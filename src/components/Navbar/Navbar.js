@@ -11,7 +11,7 @@ function NavigationBar() {
   return (
     <div className="navbar">
       <Navbar bg="light" expand="lg" className="custom-navbar">
-        <Container>
+        <Container className="navContainer">
           {/* Logo */}
           <Navbar.Brand href="#">
             <img
@@ -21,7 +21,7 @@ function NavigationBar() {
           </Navbar.Brand>
 
           {/* Toggle button for small screens */}
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle aria-controls="navbarNav" />
 
           {/* Navigation links */}
           <Navbar.Collapse id="basic-navbar-nav">
