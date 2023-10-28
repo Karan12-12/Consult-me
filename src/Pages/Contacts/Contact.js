@@ -1,6 +1,5 @@
 import React from "react";
 import "./contact.css";
-import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
@@ -15,7 +14,7 @@ const Contact = () => {
             <p className="ft-title">
               <img
                 src="https://consultme.bg/wp-content/uploads/2018/11/Original_png-1-e1542727565346.png"
-                height="200px"
+                height="150px"
               />
             </p>
             <p className="ft-description">
